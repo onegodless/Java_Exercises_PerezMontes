@@ -1,0 +1,14 @@
+------------------------------------------------Calculate the area of a circle asking first for the radius.-----------------------------------------------------------
+
+	Area of a circle = PI * r^2
+	
+	Use PI in Java:
+		Math.PI
+		
+	Pseudocode:
+		
+		integer radius = user_input
+		double areaCircle = PI * (radius * radius)
+		print areaCircle
+	end of pseudocode.
+----------------------------------------------------------------------

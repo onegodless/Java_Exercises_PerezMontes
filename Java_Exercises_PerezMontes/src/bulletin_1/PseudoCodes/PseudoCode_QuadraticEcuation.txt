@@ -1,0 +1,43 @@
+----------Ask for the coeficients of a quadratic ecuation and show the real results if there is any, or indicate if the equation has an imaginary solution.-------------
+	-ax^2+bx+c=0
+	-Solution: -b+-sqr(b^2-4ac)/(2a)	
+	-If the discriminant(b^2-4ac) is > 0, the equation has 2 real roots.
+	-If the discriminant = 0, the solution is one real root.
+	-If the discriminant < 0, we got 2 complex roots.
+	
+	Pseudocode:
+		
+		integer a = user_input
+		integer b = user_input
+		integer c = user_input
+		
+		float discriminant = b^2-4ac
+		
+		if discriminant > 0:
+			float real_root1 = -b + square_root_of(discriminant)/2a
+			float real_root2 = -b - square_root_of(discriminant)/2a
+			print real_root1
+			print real_root2
+			
+		if discriminant = 0:
+			integer real_root = -b/2a
+			print real_root
+			
+		if discriminant < 0:
+			print There are no real roots for these coefficient.
+		
+	End Pseudocode.
+	
+	Import Mathematics Java Library:
+		java.lang.Math
+	Square Root method:
+		Math.sqrt();
+	Java Input:
+		import java.util.Scanner
+		Scanner user_input = new Scanner(System.in)
+		x = user_input.next()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+		
